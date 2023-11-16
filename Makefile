@@ -1,6 +1,6 @@
 build:
 	stack build
 test:
-	stack test
+	stack build --test
 run:
 	stack exec lambda2lazyk-exe
