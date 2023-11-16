@@ -55,7 +55,7 @@ test-suite lambda2lazyk-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
-      LambdaTermSpec
+      FullEvSpec
       Paths_lambda2lazyk
   autogen-modules:
       Paths_lambda2lazyk

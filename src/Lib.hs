@@ -40,7 +40,14 @@ data LazyTerm a
   | S
   | I
   | LVar a
-  deriving (Show, Eq)
+  deriving (Eq)
+
+instance (Show a) => Show (LazyTerm a) where
+  show (C e1 e2) = show e1 ++ "(" ++ show e2 ++ ")"
+  show K = "K"
+  show S = "S"
+  show I = "I"
+  show (LVar x) = show x
 
 evalLazyTermEv :: (Eq a) => LazyTermEv a -> LazyTerm a
 evalLazyTermEv EvS = S
