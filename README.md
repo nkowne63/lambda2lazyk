@@ -26,3 +26,6 @@ SKIしか存在しないので型推論や型システムが存在しません�
 このリポジトリは[T[]-変換](https://zenn.dev/zk_phi/books/5f0430586c25dc0a70ae/viewer/eba7bc81fe286456ceb7)に従ってlambda termをLazy KのSKIの組み合わせに変換するプログラムと、そのプログラムでYコンビネータをSKI表現に変換する例を挙げています。
 
 本当はLazy Kの処理系そのものを作ってHello Worldしたかったのですがだいぶ最適化が辛そうだったので雰囲気だけ味わうことにしました。
+
+## 署名（本人確認用）
+Rei Tokami（冬鏡 澪）
